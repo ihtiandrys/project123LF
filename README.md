@@ -601,7 +601,7 @@
 <div class="t m0 x3 h3 y41 ff4 fs0 fc0 sc0 ls5 ws0">
 
 изображений<span class="ff5 ws2"> <span class="ff4">и их
-удаление.</span> </span>
+удаление. Соблюдать авторские права.</span> </span>
 
 </div>
 
@@ -1270,7 +1270,7 @@ Android-<span class="ff4 ws2">устройство, <span class="_ _11">
 
 <div class="t m0 x2 h3 y5b ff4 fs0 fc0 sc0 ls5 ws2">
 
-Требования не предъявляются.<span class="ff5"> </span>
+Изображения не должны нарушать авторские права.<span class="ff5"> </span>
 
 </div>
 
