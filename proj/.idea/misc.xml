@@ -3,37 +3,29 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/kLaUs/Desktop/Course/app/src/main/res/layout/activity_home_main.xml" value="0.2712962962962963" />
-        <entry key="..\:/Users/kLaUs/Desktop/Course/app/src/main/res/layout/activity_main.xml" value="0.2712962962962963" />
-        <entry key="..\:/Users/kLaUs/Desktop/Course/app/src/main/res/layout/activity_wallpaper.xml" value="0.2712962962962963" />
+        <entry key="..\:/Users/cne20/Desktop/Course_paper/app/src/main/res/layout/activity_gif.xml" value="0.209375" />
+        <entry key="..\:/Users/cne20/Desktop/Course_paper/app/src/main/res/layout/activity_help.xml" value="0.1" />
+        <entry key="..\:/Users/cne20/Desktop/Course_paper/app/src/main/res/layout/activity_home_main.xml" value="0.209375" />
+        <entry key="..\:/Users/cne20/Desktop/Course_paper/app/src/main/res/layout/activity_image0.xml" value="0.209375" />
+        <entry key="..\:/Users/cne20/Desktop/Course_paper/app/src/main/res/layout/activity_image1.xml" value="0.209375" />
+        <entry key="..\:/Users/cne20/Desktop/Course_paper/app/src/main/res/layout/activity_image2.xml" value="0.209375" />
+        <entry key="..\:/Users/cne20/Desktop/Course_paper/app/src/main/res/layout/activity_image3.xml" value="0.209375" />
+        <entry key="..\:/Users/cne20/Desktop/Course_paper/app/src/main/res/layout/activity_image4.xml" value="0.209375" />
+        <entry key="..\:/Users/cne20/Desktop/Course_paper/app/src/main/res/layout/activity_image5.xml" value="0.209375" />
+        <entry key="..\:/Users/cne20/Desktop/Course_paper/app/src/main/res/layout/activity_live_wallpaper.xml" value="0.209375" />
+        <entry key="..\:/Users/cne20/Desktop/Course_paper/app/src/main/res/layout/activity_main.xml" value="0.1953125" />
+        <entry key="..\:/Users/cne20/Desktop/Course_paper/app/src/main/res/layout/activity_pythagorean_theoreme.xml" value="0.209375" />
+        <entry key="..\:/Users/cne20/Desktop/Course_paper/app/src/main/res/layout/activity_recycler_view.xml" value="0.209375" />
+        <entry key="..\:/Users/cne20/Desktop/Course_paper/app/src/main/res/layout/activity_test_app.xml" value="0.209375" />
+        <entry key="..\:/Users/cne20/Desktop/Course_paper/app/src/main/res/layout/activity_wallpaper.xml" value="0.1953125" />
+        <entry key="..\:/Users/cne20/Desktop/Course_paper/app/src/main/res/layout/activity_youtube.xml" value="0.33" />
+        <entry key="..\:/Users/cne20/Desktop/Course_paper/app/src/main/res/layout/activity_zpactivity.xml" value="0.22" />
+        <entry key="..\:/Users/cne20/Desktop/Course_paper/app/src/main/res/layout/wallpaper_item.xml" value="0.209375" />
+        <entry key="..\:/Users/cne20/Desktop/Course_paper/app/src/main/res/mipmap-anydpi-v26/ic_icon.xml" value="0.13703703703703704" />
       </map>
     </option>
   </component>
-  <component name="NullableNotNullManager">
-    <option name="myDefaultNullable" value="android.support.annotation.Nullable" />
-    <option name="myDefaultNotNull" value="android.support.annotation.NonNull" />
-    <option name="myNullables">
-      <value>
-        <list size="4">
-          <item index="0" class="java.lang.String" itemvalue="org.jetbrains.annotations.Nullable" />
-          <item index="1" class="java.lang.String" itemvalue="javax.annotation.Nullable" />
-          <item index="2" class="java.lang.String" itemvalue="edu.umd.cs.findbugs.annotations.Nullable" />
-          <item index="3" class="java.lang.String" itemvalue="android.support.annotation.Nullable" />
-        </list>
-      </value>
-    </option>
-    <option name="myNotNulls">
-      <value>
-        <list size="4">
-          <item index="0" class="java.lang.String" itemvalue="org.jetbrains.annotations.NotNull" />
-          <item index="1" class="java.lang.String" itemvalue="javax.annotation.Nonnull" />
-          <item index="2" class="java.lang.String" itemvalue="edu.umd.cs.findbugs.annotations.NonNull" />
-          <item index="3" class="java.lang.String" itemvalue="android.support.annotation.NonNull" />
-        </list>
-      </value>
-    </option>
-  </component>
-  <component name="ProjectRootManager">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
