@@ -4,32 +4,87 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background_home"
+    android:background="@drawable/backgroing_v"
     tools:context=".HomeMainActivity">
 
     <Button
         android:id="@+id/btWallpaper"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginEnd="8dp"
         android:backgroundTint="#7E7A7A"
         android:onClick="onClickGoWallpaper"
         android:text="Изображения"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.789"
+        app:layout_constraintHorizontal_bias="0.914"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.499" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btLiveWallpaper"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="12dp"
         android:backgroundTint="#7E7A7A"
         android:onClick="onClickGoLiveWallpaper"
-        android:text="Живые изображения"
-        app:layout_constraintEnd_toEndOf="@+id/btWallpaper"
-        app:layout_constraintStart_toStartOf="@+id/btWallpaper"
-        app:layout_constraintTop_toBottomOf="@+id/btWallpaper" />
+        android:text="Анимация изображения"
+        app:layout_constraintEnd_toEndOf="@+id/btRV"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/btRV"
+        app:layout_constraintTop_toBottomOf="@+id/btRV" />
+
+    <Button
+        android:id="@+id/btHelp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#7E7A7A"
+        android:onClick="onClickGoHelp"
+        android:text="О программе"
+        app:layout_constraintEnd_toEndOf="@+id/btTestApp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/btTestApp"
+        app:layout_constraintTop_toBottomOf="@+id/btTestApp" />
+
+    <Button
+        android:id="@+id/btRV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#7E7A7A"
+        android:onClick="onClickGoRecyclerView"
+        android:text="Тест Recycler View"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.864"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btWallpaper"
+        app:layout_constraintVertical_bias="0.014" />
+
+    <Button
+        android:id="@+id/btTestApp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#7E7A7A"
+        android:onClick="onClickGoTest"
+        android:text="Тестовые приложения"
+        app:layout_constraintEnd_toEndOf="@+id/btLiveWallpaper"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/btLiveWallpaper"
+        app:layout_constraintTop_toBottomOf="@+id/btLiveWallpaper" />
+
+    <Button
+        android:id="@+id/btExit"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#7E7A7A"
+        android:onClick="onClickGoExit"
+        android:text="Выйти"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/btHelp"
+        app:layout_constraintStart_toStartOf="@+id/btHelp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

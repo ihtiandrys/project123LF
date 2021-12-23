@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroing_v"
+    tools:context=".TestAppActivity">
+
+    <Button
+        android:id="@+id/btPT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:backgroundTint="#7E7A7A"
+        android:onClick="onClickGoPT"
+        android:text="Теорема Пифагора"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btZP"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#7E7A7A"
+        android:onClick="onClickGoZP"
+        android:text="ЗАРПЛАТА"
+        app:layout_constraintEnd_toEndOf="@+id/btPT"
+        app:layout_constraintStart_toStartOf="@+id/btPT"
+        app:layout_constraintTop_toBottomOf="@+id/btPT" />
+
+    <Button
+        android:id="@+id/btGif"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#7E7A7A"
+        android:onClick="onClickGoGif"
+        android:text="Gif изображение"
+        app:layout_constraintEnd_toEndOf="@+id/btZP"
+        app:layout_constraintStart_toStartOf="@+id/btZP"
+        app:layout_constraintTop_toBottomOf="@+id/btZP" />
+</androidx.constraintlayout.widget.ConstraintLayout>

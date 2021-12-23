@@ -1,3 +1,21 @@
 <resources>
-    <string name="app_name">Course</string>
+    <string name="app_name">Course_paper</string>
+    <string name="Hint">Добавить изображение</string>
+    <string name="title">Вычислить "С"</string>
+    <string name="result_info">Результат:</string>
+    <string name="input_a">Введите значение \"А\"</string>
+    <string name="input_b">Введите значение \"В\"</string>
+    <string name="result">Решить</string>
+    <string name="about_the_program">
+        Работу выполнили:\n
+        студенты 4-го курса\n
+        группы ЭВТ-18-1Б\n
+        Гайнутдинов Е.Р.\n
+        Кораблев Е.В.\n
+        Нестеров К.Д.\n
+        Преподаватель:\n
+        Курушин Д.С.\n
+        Ссылка на репозиторий на гит хаб:\n
+        https://github.com/ihtiandrys/project123LF.git
+    </string>
 </resources>

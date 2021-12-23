@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroing_v"
+    tools:context=".ZPActivity">
+
+    <EditText
+        android:id="@+id/edName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Введите Ваше имя"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Введите Ваш пароль"
+        android:inputType="number|textPersonName"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="@+id/edName"
+        app:layout_constraintStart_toStartOf="@+id/edName"
+        app:layout_constraintTop_toBottomOf="@+id/edName" />
+
+    <TextView
+        android:id="@+id/tvResult321"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="@+id/edPass"
+        app:layout_constraintStart_toStartOf="@+id/edPass"
+        app:layout_constraintTop_toBottomOf="@+id/edPass" />
+
+    <Button
+        android:id="@+id/btZP321"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:backgroundTint="#7E7A7A"
+        android:text="Зарплата"
+        app:layout_constraintEnd_toEndOf="@+id/tvResult321"
+        app:layout_constraintStart_toStartOf="@+id/tvResult321"
+        app:layout_constraintTop_toBottomOf="@+id/edPass" />
+</androidx.constraintlayout.widget.ConstraintLayout>

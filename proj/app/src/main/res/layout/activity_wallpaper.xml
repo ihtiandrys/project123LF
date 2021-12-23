@@ -6,4 +6,46 @@
     android:layout_height="match_parent"
     tools:context=".WallpaperActivity">
 
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/btAdd"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#7E7A7A"
+        android:text="@string/Hint"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="@+id/rcView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tvHint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:gravity="center"
+        android:text='Нажмите на кнопку "Добавить изображение" 6 раз'
+        android:textColor="#FF0000"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btAdd"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/rcView"
+        app:layout_constraintTop_toTopOf="@+id/rcView" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
